@@ -19,7 +19,9 @@ defineProps({
 </template>
 
 <style scoped lang="scss">
+@import 'bootstrap/scss/bootstrap';
 .text {
-@extend .text-danger
+@extend .text-danger;
+@extend .text-center;
 }
 </style>
